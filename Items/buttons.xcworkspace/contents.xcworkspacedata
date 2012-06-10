@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:../../../Downloads/CoolButton"
+      name = "CoolButton">
+      <Group
+         location = "group:Classes"
+         name = "Classes">
+         <FileRef
+            location = "group:Common.h">
+         </FileRef>
+         <FileRef
+            location = "group:Common.m">
+         </FileRef>
+         <FileRef
+            location = "group:CoolButton.h">
+         </FileRef>
+         <FileRef
+            location = "group:CoolButton.m">
+         </FileRef>
+         <FileRef
+            location = "group:CoolButtonAppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:CoolButtonAppDelegate.m">
+         </FileRef>
+         <FileRef
+            location = "group:CoolButtonViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:CoolButtonViewController.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:CoolButton-Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:CoolButton.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CoolButton_Prefix.pch">
+      </FileRef>
+      <FileRef
+         location = "group:CoolButtonViewController.xib">
+      </FileRef>
+      <FileRef
+         location = "group:main.m">
+      </FileRef>
+      <FileRef
+         location = "group:MainWindow.xib">
+      </FileRef>
+   </Group>
+</Workspace>

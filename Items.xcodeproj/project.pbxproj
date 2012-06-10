@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0792BB3014FC46AB00FEF7C1 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0792BB2F14FC46AB00FEF7C1 /* XMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		07CA3B2B14F1E666008C093E /* iphone-share-map-location-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07CA3B2A14F1E666008C093E /* iphone-share-map-location-2.png */; };
+		07F44D73151847E300306CCD /* RecentLostMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F44D71151847E300306CCD /* RecentLostMapViewController.m */; };
+		07F44D74151847E300306CCD /* RecentLostMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F44D72151847E300306CCD /* RecentLostMapViewController.xib */; };
+		07F44D7E15187DCD00306CCD /* LostItemAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F44D7D15187DCC00306CCD /* LostItemAnnotation.m */; };
+		7B0BC617150692F200D7C77B /* FoundItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0BC616150692F100D7C77B /* FoundItemViewController.xib */; };
+		7B0BC61D1506E4EB00D7C77B /* BackgroundFrame1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0BC61C1506E4EA00D7C77B /* BackgroundFrame1.png */; };
+		7B0BC61F1506FD1A00D7C77B /* blackbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0BC61E1506FD1900D7C77B /* blackbackground.png */; };
+		7B18F744150FC077000BB088 /* MessageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B18F742150FC077000BB088 /* MessageDetailViewController.m */; };
+		7B18F745150FC077000BB088 /* MessageDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B18F743150FC077000BB088 /* MessageDetailViewController.xib */; };
+		7B18F74D150FEC46000BB088 /* pictureNotAvailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B18F74C150FEC45000BB088 /* pictureNotAvailable.png */; };
+		7B33810D150D8296003C1D05 /* SendMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B33810B150D8296003C1D05 /* SendMessageViewController.m */; };
+		7B33810E150D8296003C1D05 /* SendMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B33810C150D8296003C1D05 /* SendMessageViewController.xib */; };
+		7B3F12FB150FF1F90029CD1B /* SentBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F12F9150FF1F90029CD1B /* SentBoxViewController.m */; };
+		7B3F12FC150FF1F90029CD1B /* SentBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F12FA150FF1F90029CD1B /* SentBoxViewController.xib */; };
+		7B3F12FF150FF2840029CD1B /* backgroundColor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F12FE150FF2840029CD1B /* backgroundColor.jpeg */; };
+		7B3F1303151037BE0029CD1B /* SimilarFoundPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F1301151037BC0029CD1B /* SimilarFoundPostsViewController.m */; };
+		7B3F1304151037BE0029CD1B /* SimilarFoundPostsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F1302151037BD0029CD1B /* SimilarFoundPostsViewController.xib */; };
+		7B3F130C151054C00029CD1B /* RecentLostItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F130A151054BE0029CD1B /* RecentLostItemsViewController.m */; };
+		7B3F130D151054C00029CD1B /* RecentLostItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F130B151054BF0029CD1B /* RecentLostItemsViewController.xib */; };
+		7B3F1322151082E80029CD1B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F131B151081E90029CD1B /* CoreLocation.framework */; };
+		7B3F13231511140C0029CD1B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F131E1510825B0029CD1B /* MapKit.framework */; };
+		7BD64A3D150E660300FEEF29 /* MyMessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BD64A3B150E660200FEEF29 /* MyMessagesViewController.m */; };
+		7BD64A3E150E660300FEEF29 /* MyMessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BD64A3C150E660200FEEF29 /* MyMessagesViewController.xib */; };
+		7BE55E5714E875A800B55A86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE55E5614E875A800B55A86 /* UIKit.framework */; };
+		7BE55E5914E875A800B55A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE55E5814E875A800B55A86 /* Foundation.framework */; };
+		7BE55E5B14E875A800B55A86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE55E5A14E875A800B55A86 /* CoreGraphics.framework */; };
+		7BE55E6114E875A800B55A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BE55E5F14E875A800B55A86 /* InfoPlist.strings */; };
+		7BE55E6314E875A800B55A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE55E6214E875A800B55A86 /* main.m */; };
+		7BE55E6714E875A800B55A86 /* ECS189AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE55E6614E875A800B55A86 /* ECS189AppDelegate.m */; };
+		7BE55E6F14E875D700B55A86 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE55E6E14E875D700B55A86 /* RootViewController.m */; };
+		7BE55E7114E875F700B55A86 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE55E7014E875F700B55A86 /* RootView.xib */; };
+		7BE55E8114E886F300B55A86 /* LostMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE55E7F14E886F300B55A86 /* LostMenuViewController.m */; };
+		7BE55E8214E886F300B55A86 /* LostMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE55E8014E886F300B55A86 /* LostMenuViewController.xib */; };
+		7BE55E8614E88A8700B55A86 /* FoundMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE55E8414E88A8700B55A86 /* FoundMenuViewController.m */; };
+		7BE55E8714E88A8700B55A86 /* FoundMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BE55E8514E88A8700B55A86 /* FoundMenuViewController.xib */; };
+		9A590C76150D3E72003FE225 /* MyFoundItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A590C71150D3E72003FE225 /* MyFoundItemViewController.m */; };
+		9A590C77150D3E72003FE225 /* MyFoundItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A590C72150D3E72003FE225 /* MyFoundItemViewController.xib */; };
+		9A590C78150D3E72003FE225 /* MyFoundListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A590C74150D3E72003FE225 /* MyFoundListViewController.m */; };
+		9A590C79150D3E72003FE225 /* MyFoundListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A590C75150D3E72003FE225 /* MyFoundListViewController.xib */; };
+		9A590C81150D4719003FE225 /* MyLostItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A590C7C150D4719003FE225 /* MyLostItemViewController.m */; };
+		9A590C82150D4719003FE225 /* MyLostItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A590C7D150D4719003FE225 /* MyLostItemViewController.xib */; };
+		9A590C83150D4719003FE225 /* MyLostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A590C7F150D4719003FE225 /* MyLostListViewController.m */; };
+		9A590C84150D4719003FE225 /* MyLostListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A590C80150D4719003FE225 /* MyLostListViewController.xib */; };
+		9A8498E71516E1AF00386720 /* FindLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8498E51516E1AF00386720 /* FindLocationViewController.m */; };
+		9A8498E81516E1AF00386720 /* FindLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8498E61516E1AF00386720 /* FindLocationViewController.xib */; };
+		9A8A00E0151993C200A0FE46 /* ItemOnMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A00DE151993BF00A0FE46 /* ItemOnMapViewController.m */; };
+		9A8A00E1151993C200A0FE46 /* ItemOnMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8A00DF151993C000A0FE46 /* ItemOnMapViewController.xib */; };
+		9A8CAB71150476AA00460638 /* SearchLostPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8CAB6F150476AA00460638 /* SearchLostPostViewController.m */; };
+		9A8CAB72150476AA00460638 /* SearchLostPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A8CAB70150476AA00460638 /* SearchLostPostViewController.xib */; };
+		9A8CAB76150476C500460638 /* FoundItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8CAB74150476C500460638 /* FoundItemViewController.m */; };
+		9A9298E114FDF00200D28AA7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298E014FDF00200D28AA7 /* Parse.framework */; };
+		9A9298E414FDF07100D28AA7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298E314FDF07100D28AA7 /* AudioToolbox.framework */; };
+		9A9298E614FDF07600D28AA7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298E514FDF07600D28AA7 /* CFNetwork.framework */; };
+		9A9298E814FDF07E00D28AA7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298E714FDF07E00D28AA7 /* SystemConfiguration.framework */; };
+		9A9298EA14FDF08A00D28AA7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298E914FDF08900D28AA7 /* MobileCoreServices.framework */; };
+		9A9298EC14FDF0A100D28AA7 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298EB14FDF0A100D28AA7 /* libz.1.1.3.dylib */; };
+		9A9298EE14FDF0AA00D28AA7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298ED14FDF0AA00D28AA7 /* Security.framework */; };
+		9A9298F014FDF0B300D28AA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9298EF14FDF0B300D28AA7 /* QuartzCore.framework */; };
+		9A948D9214FACA550016E40B /* CreateLostPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A948D9014FACA550016E40B /* CreateLostPostViewController.m */; };
+		9A948D9314FACA550016E40B /* CreateLostPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A948D9114FACA550016E40B /* CreateLostPostViewController.xib */; };
+		9AB6F31014F0CF2C0044AD81 /* CreateFoundPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB6F30F14F0CF2C0044AD81 /* CreateFoundPostViewController.m */; };
+		9AB6F31214F0D2540044AD81 /* CreateFoundPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB6F31114F0D2530044AD81 /* CreateFoundPostViewController.xib */; };
+		9ABAF5161516F6BC004D37C7 /* FoundLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABAF5141516F6BC004D37C7 /* FoundLocationViewController.m */; };
+		9ABAF5171516F6BC004D37C7 /* FoundLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ABAF5151516F6BC004D37C7 /* FoundLocationViewController.xib */; };
+		C1AE98E514FC09E9006EF8A7 /* button-308x94-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C1AE98E114FC09E9006EF8A7 /* button-308x94-1.png */; };
+		C1AE98E614FC09E9006EF8A7 /* button-308x94.png in Resources */ = {isa = PBXBuildFile; fileRef = C1AE98E214FC09E9006EF8A7 /* button-308x94.png */; };
+		C1AE98E714FC09E9006EF8A7 /* button-320x90-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C1AE98E314FC09E9006EF8A7 /* button-320x90-1.png */; };
+		C1AE98E814FC09E9006EF8A7 /* button-320x90.png in Resources */ = {isa = PBXBuildFile; fileRef = C1AE98E414FC09E9006EF8A7 /* button-320x90.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0792BB2E14FC46AB00FEF7C1 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		0792BB2F14FC46AB00FEF7C1 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		07CA3B2A14F1E666008C093E /* iphone-share-map-location-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone-share-map-location-2.png"; sourceTree = "<group>"; };
+		07F44D70151847E300306CCD /* RecentLostMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentLostMapViewController.h; sourceTree = "<group>"; };
+		07F44D71151847E300306CCD /* RecentLostMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentLostMapViewController.m; sourceTree = "<group>"; };
+		07F44D72151847E300306CCD /* RecentLostMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentLostMapViewController.xib; sourceTree = "<group>"; };
+		07F44D7C15187DCC00306CCD /* LostItemAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostItemAnnotation.h; sourceTree = "<group>"; };
+		07F44D7D15187DCC00306CCD /* LostItemAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostItemAnnotation.m; sourceTree = "<group>"; };
+		7B0BC616150692F100D7C77B /* FoundItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoundItemViewController.xib; sourceTree = "<group>"; };
+		7B0BC61C1506E4EA00D7C77B /* BackgroundFrame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundFrame1.png; sourceTree = "<group>"; };
+		7B0BC61E1506FD1900D7C77B /* blackbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackbackground.png; sourceTree = "<group>"; };
+		7B18F741150FC077000BB088 /* MessageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailViewController.h; sourceTree = "<group>"; };
+		7B18F742150FC077000BB088 /* MessageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailViewController.m; sourceTree = "<group>"; };
+		7B18F743150FC077000BB088 /* MessageDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageDetailViewController.xib; sourceTree = "<group>"; };
+		7B18F74C150FEC45000BB088 /* pictureNotAvailable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pictureNotAvailable.png; sourceTree = "<group>"; };
+		7B33810A150D8295003C1D05 /* SendMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendMessageViewController.h; sourceTree = "<group>"; };
+		7B33810B150D8296003C1D05 /* SendMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendMessageViewController.m; sourceTree = "<group>"; };
+		7B33810C150D8296003C1D05 /* SendMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendMessageViewController.xib; sourceTree = "<group>"; };
+		7B3F12F8150FF1F90029CD1B /* SentBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentBoxViewController.h; sourceTree = "<group>"; };
+		7B3F12F9150FF1F90029CD1B /* SentBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentBoxViewController.m; sourceTree = "<group>"; };
+		7B3F12FA150FF1F90029CD1B /* SentBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentBoxViewController.xib; sourceTree = "<group>"; };
+		7B3F12FE150FF2840029CD1B /* backgroundColor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundColor.jpeg; sourceTree = "<group>"; };
+		7B3F1300151037BC0029CD1B /* SimilarFoundPostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimilarFoundPostsViewController.h; sourceTree = "<group>"; };
+		7B3F1301151037BC0029CD1B /* SimilarFoundPostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimilarFoundPostsViewController.m; sourceTree = "<group>"; };
+		7B3F1302151037BD0029CD1B /* SimilarFoundPostsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimilarFoundPostsViewController.xib; sourceTree = "<group>"; };
+		7B3F1309151054BB0029CD1B /* RecentLostItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentLostItemsViewController.h; sourceTree = "<group>"; };
+		7B3F130A151054BE0029CD1B /* RecentLostItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentLostItemsViewController.m; sourceTree = "<group>"; };
+		7B3F130B151054BF0029CD1B /* RecentLostItemsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentLostItemsViewController.xib; sourceTree = "<group>"; };
+		7B3F131B151081E90029CD1B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7B3F131E1510825B0029CD1B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7B3F1320151082620029CD1B /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		7BD64A3A150E660200FEEF29 /* MyMessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessagesViewController.h; sourceTree = "<group>"; };
+		7BD64A3B150E660200FEEF29 /* MyMessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessagesViewController.m; sourceTree = "<group>"; };
+		7BD64A3C150E660200FEEF29 /* MyMessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMessagesViewController.xib; sourceTree = "<group>"; };
+		7BE55E5214E875A800B55A86 /* Items.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Items.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE55E5614E875A800B55A86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7BE55E5814E875A800B55A86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7BE55E5A14E875A800B55A86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BE55E5E14E875A800B55A86 /* Items-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Items-Info.plist"; sourceTree = "<group>"; };
+		7BE55E6014E875A800B55A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7BE55E6214E875A800B55A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BE55E6414E875A800B55A86 /* Items-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Items-Prefix.pch"; sourceTree = "<group>"; };
+		7BE55E6514E875A800B55A86 /* ECS189AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECS189AppDelegate.h; sourceTree = "<group>"; };
+		7BE55E6614E875A800B55A86 /* ECS189AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECS189AppDelegate.m; sourceTree = "<group>"; };
+		7BE55E6D14E875D700B55A86 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7BE55E6E14E875D700B55A86 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7BE55E7014E875F700B55A86 /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
+		7BE55E7E14E886F300B55A86 /* LostMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostMenuViewController.h; sourceTree = "<group>"; };
+		7BE55E7F14E886F300B55A86 /* LostMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostMenuViewController.m; sourceTree = "<group>"; };
+		7BE55E8014E886F300B55A86 /* LostMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LostMenuViewController.xib; sourceTree = "<group>"; };
+		7BE55E8314E88A8700B55A86 /* FoundMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundMenuViewController.h; sourceTree = "<group>"; };
+		7BE55E8414E88A8700B55A86 /* FoundMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundMenuViewController.m; sourceTree = "<group>"; };
+		7BE55E8514E88A8700B55A86 /* FoundMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoundMenuViewController.xib; sourceTree = "<group>"; };
+		9A590C70150D3E72003FE225 /* MyFoundItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFoundItemViewController.h; sourceTree = "<group>"; };
+		9A590C71150D3E72003FE225 /* MyFoundItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFoundItemViewController.m; sourceTree = "<group>"; };
+		9A590C72150D3E72003FE225 /* MyFoundItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFoundItemViewController.xib; sourceTree = "<group>"; };
+		9A590C73150D3E72003FE225 /* MyFoundListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFoundListViewController.h; sourceTree = "<group>"; };
+		9A590C74150D3E72003FE225 /* MyFoundListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFoundListViewController.m; sourceTree = "<group>"; };
+		9A590C75150D3E72003FE225 /* MyFoundListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyFoundListViewController.xib; sourceTree = "<group>"; };
+		9A590C7B150D4719003FE225 /* MyLostItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLostItemViewController.h; sourceTree = "<group>"; };
+		9A590C7C150D4719003FE225 /* MyLostItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLostItemViewController.m; sourceTree = "<group>"; };
+		9A590C7D150D4719003FE225 /* MyLostItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLostItemViewController.xib; sourceTree = "<group>"; };
+		9A590C7E150D4719003FE225 /* MyLostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLostListViewController.h; sourceTree = "<group>"; };
+		9A590C7F150D4719003FE225 /* MyLostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLostListViewController.m; sourceTree = "<group>"; };
+		9A590C80150D4719003FE225 /* MyLostListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLostListViewController.xib; sourceTree = "<group>"; };
+		9A8498E41516E1AF00386720 /* FindLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLocationViewController.h; sourceTree = "<group>"; };
+		9A8498E51516E1AF00386720 /* FindLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindLocationViewController.m; sourceTree = "<group>"; };
+		9A8498E61516E1AF00386720 /* FindLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindLocationViewController.xib; sourceTree = "<group>"; };
+		9A8A00DD151993BE00A0FE46 /* ItemOnMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemOnMapViewController.h; sourceTree = "<group>"; };
+		9A8A00DE151993BF00A0FE46 /* ItemOnMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemOnMapViewController.m; sourceTree = "<group>"; };
+		9A8A00DF151993C000A0FE46 /* ItemOnMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemOnMapViewController.xib; sourceTree = "<group>"; };
+		9A8CAB6E150476AA00460638 /* SearchLostPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchLostPostViewController.h; sourceTree = "<group>"; };
+		9A8CAB6F150476AA00460638 /* SearchLostPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchLostPostViewController.m; sourceTree = "<group>"; };
+		9A8CAB70150476AA00460638 /* SearchLostPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchLostPostViewController.xib; sourceTree = "<group>"; };
+		9A8CAB73150476C500460638 /* FoundItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundItemViewController.h; sourceTree = "<group>"; };
+		9A8CAB74150476C500460638 /* FoundItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundItemViewController.m; sourceTree = "<group>"; };
+		9A9298E014FDF00200D28AA7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		9A9298E314FDF07100D28AA7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9A9298E514FDF07600D28AA7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9A9298E714FDF07E00D28AA7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A9298E914FDF08900D28AA7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9A9298EB14FDF0A100D28AA7 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		9A9298ED14FDF0AA00D28AA7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9A9298EF14FDF0B300D28AA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A948D8F14FACA550016E40B /* CreateLostPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateLostPostViewController.h; sourceTree = "<group>"; };
+		9A948D9014FACA550016E40B /* CreateLostPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateLostPostViewController.m; sourceTree = "<group>"; };
+		9A948D9114FACA550016E40B /* CreateLostPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateLostPostViewController.xib; sourceTree = "<group>"; };
+		9AB6F30B14F0CD5D0044AD81 /* CreateFoundPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateFoundPostViewController.h; sourceTree = "<group>"; };
+		9AB6F30F14F0CF2C0044AD81 /* CreateFoundPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateFoundPostViewController.m; sourceTree = "<group>"; };
+		9AB6F31114F0D2530044AD81 /* CreateFoundPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateFoundPostViewController.xib; sourceTree = "<group>"; };
+		9ABAF5131516F6BC004D37C7 /* FoundLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundLocationViewController.h; sourceTree = "<group>"; };
+		9ABAF5141516F6BC004D37C7 /* FoundLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundLocationViewController.m; sourceTree = "<group>"; };
+		9ABAF5151516F6BC004D37C7 /* FoundLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoundLocationViewController.xib; sourceTree = "<group>"; };
+		C1AE98E114FC09E9006EF8A7 /* button-308x94-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-308x94-1.png"; sourceTree = "<group>"; };
+		C1AE98E214FC09E9006EF8A7 /* button-308x94.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-308x94.png"; sourceTree = "<group>"; };
+		C1AE98E314FC09E9006EF8A7 /* button-320x90-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-320x90-1.png"; sourceTree = "<group>"; };
+		C1AE98E414FC09E9006EF8A7 /* button-320x90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-320x90.png"; path = "Items/button-320x90.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BE55E4F14E875A800B55A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F13231511140C0029CD1B /* MapKit.framework in Frameworks */,
+				7B3F1322151082E80029CD1B /* CoreLocation.framework in Frameworks */,
+				9A9298F014FDF0B300D28AA7 /* QuartzCore.framework in Frameworks */,
+				9A9298EE14FDF0AA00D28AA7 /* Security.framework in Frameworks */,
+				9A9298EC14FDF0A100D28AA7 /* libz.1.1.3.dylib in Frameworks */,
+				7BE55E5B14E875A800B55A86 /* CoreGraphics.framework in Frameworks */,
+				9A9298EA14FDF08A00D28AA7 /* MobileCoreServices.framework in Frameworks */,
+				9A9298E814FDF07E00D28AA7 /* SystemConfiguration.framework in Frameworks */,
+				9A9298E614FDF07600D28AA7 /* CFNetwork.framework in Frameworks */,
+				9A9298E414FDF07100D28AA7 /* AudioToolbox.framework in Frameworks */,
+				7BE55E5714E875A800B55A86 /* UIKit.framework in Frameworks */,
+				7BE55E5914E875A800B55A86 /* Foundation.framework in Frameworks */,
+				9A9298E114FDF00200D28AA7 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BD64A38150E659F00FEEF29 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				7BD64A3A150E660200FEEF29 /* MyMessagesViewController.h */,
+				7BD64A3B150E660200FEEF29 /* MyMessagesViewController.m */,
+				7BD64A3C150E660200FEEF29 /* MyMessagesViewController.xib */,
+				7B18F741150FC077000BB088 /* MessageDetailViewController.h */,
+				7B18F742150FC077000BB088 /* MessageDetailViewController.m */,
+				7B18F743150FC077000BB088 /* MessageDetailViewController.xib */,
+				7B3F12F8150FF1F90029CD1B /* SentBoxViewController.h */,
+				7B3F12F9150FF1F90029CD1B /* SentBoxViewController.m */,
+				7B3F12FA150FF1F90029CD1B /* SentBoxViewController.xib */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		7BE55E4714E875A800B55A86 = {
+			isa = PBXGroup;
+			children = (
+				7B3F1320151082620029CD1B /* AddressBook.framework */,
+				7B3F131E1510825B0029CD1B /* MapKit.framework */,
+				7B3F131B151081E90029CD1B /* CoreLocation.framework */,
+				9A9298EF14FDF0B300D28AA7 /* QuartzCore.framework */,
+				9A9298ED14FDF0AA00D28AA7 /* Security.framework */,
+				9A9298EB14FDF0A100D28AA7 /* libz.1.1.3.dylib */,
+				9A9298E914FDF08900D28AA7 /* MobileCoreServices.framework */,
+				9A9298E714FDF07E00D28AA7 /* SystemConfiguration.framework */,
+				9A9298E514FDF07600D28AA7 /* CFNetwork.framework */,
+				9A9298E314FDF07100D28AA7 /* AudioToolbox.framework */,
+				7BE55E5C14E875A800B55A86 /* Items */,
+				7BE55E5514E875A800B55A86 /* Frameworks */,
+				7BE55E5314E875A800B55A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BE55E5314E875A800B55A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BE55E5214E875A800B55A86 /* Items.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BE55E5514E875A800B55A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A9298E014FDF00200D28AA7 /* Parse.framework */,
+				7BE55E5614E875A800B55A86 /* UIKit.framework */,
+				7BE55E5814E875A800B55A86 /* Foundation.framework */,
+				7BE55E5A14E875A800B55A86 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BE55E5C14E875A800B55A86 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				7BD64A38150E659F00FEEF29 /* Messages */,
+				7BE55E6514E875A800B55A86 /* ECS189AppDelegate.h */,
+				7BE55E6614E875A800B55A86 /* ECS189AppDelegate.m */,
+				7BE55E6D14E875D700B55A86 /* RootViewController.h */,
+				7BE55E6E14E875D700B55A86 /* RootViewController.m */,
+				7B3F12FE150FF2840029CD1B /* backgroundColor.jpeg */,
+				7B18F74C150FEC45000BB088 /* pictureNotAvailable.png */,
+				07CA3B2A14F1E666008C093E /* iphone-share-map-location-2.png */,
+				C1AE98E114FC09E9006EF8A7 /* button-308x94-1.png */,
+				C1AE98E214FC09E9006EF8A7 /* button-308x94.png */,
+				C1AE98E314FC09E9006EF8A7 /* button-320x90-1.png */,
+				C1AE98E414FC09E9006EF8A7 /* button-320x90.png */,
+				7BE55E7014E875F700B55A86 /* RootView.xib */,
+				7BE55E8E14E88C3A00B55A86 /* Found */,
+				7BE55E8D14E88C0B00B55A86 /* Lost */,
+				7BE55E5D14E875A800B55A86 /* Supporting Files */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		7BE55E5D14E875A800B55A86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BE55E5E14E875A800B55A86 /* Items-Info.plist */,
+				7BE55E5F14E875A800B55A86 /* InfoPlist.strings */,
+				7BE55E6214E875A800B55A86 /* main.m */,
+				7BE55E6414E875A800B55A86 /* Items-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BE55E8D14E88C0B00B55A86 /* Lost */ = {
+			isa = PBXGroup;
+			children = (
+				9A590C7B150D4719003FE225 /* MyLostItemViewController.h */,
+				9A590C7C150D4719003FE225 /* MyLostItemViewController.m */,
+				9A590C7D150D4719003FE225 /* MyLostItemViewController.xib */,
+				9A590C7E150D4719003FE225 /* MyLostListViewController.h */,
+				9A590C7F150D4719003FE225 /* MyLostListViewController.m */,
+				9A590C80150D4719003FE225 /* MyLostListViewController.xib */,
+				9A948D8F14FACA550016E40B /* CreateLostPostViewController.h */,
+				9A948D9014FACA550016E40B /* CreateLostPostViewController.m */,
+				9A948D9114FACA550016E40B /* CreateLostPostViewController.xib */,
+				7BE55E8014E886F300B55A86 /* LostMenuViewController.xib */,
+				7BE55E7E14E886F300B55A86 /* LostMenuViewController.h */,
+				7BE55E7F14E886F300B55A86 /* LostMenuViewController.m */,
+				7B3F1300151037BC0029CD1B /* SimilarFoundPostsViewController.h */,
+				7B3F1301151037BC0029CD1B /* SimilarFoundPostsViewController.m */,
+				7B3F1302151037BD0029CD1B /* SimilarFoundPostsViewController.xib */,
+				9A8498E41516E1AF00386720 /* FindLocationViewController.h */,
+				9A8498E51516E1AF00386720 /* FindLocationViewController.m */,
+				9A8498E61516E1AF00386720 /* FindLocationViewController.xib */,
+			);
+			name = Lost;
+			sourceTree = "<group>";
+		};
+		7BE55E8E14E88C3A00B55A86 /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAF5131516F6BC004D37C7 /* FoundLocationViewController.h */,
+				9ABAF5141516F6BC004D37C7 /* FoundLocationViewController.m */,
+				9ABAF5151516F6BC004D37C7 /* FoundLocationViewController.xib */,
+				9A590C70150D3E72003FE225 /* MyFoundItemViewController.h */,
+				9A590C71150D3E72003FE225 /* MyFoundItemViewController.m */,
+				9A590C72150D3E72003FE225 /* MyFoundItemViewController.xib */,
+				9A590C73150D3E72003FE225 /* MyFoundListViewController.h */,
+				9A590C74150D3E72003FE225 /* MyFoundListViewController.m */,
+				9A590C75150D3E72003FE225 /* MyFoundListViewController.xib */,
+				7B0BC61E1506FD1900D7C77B /* blackbackground.png */,
+				7B0BC61C1506E4EA00D7C77B /* BackgroundFrame1.png */,
+				9A8CAB73150476C500460638 /* FoundItemViewController.h */,
+				9A8CAB74150476C500460638 /* FoundItemViewController.m */,
+				7B0BC616150692F100D7C77B /* FoundItemViewController.xib */,
+				9A8CAB6E150476AA00460638 /* SearchLostPostViewController.h */,
+				9A8CAB6F150476AA00460638 /* SearchLostPostViewController.m */,
+				9A8CAB70150476AA00460638 /* SearchLostPostViewController.xib */,
+				9AB6F31114F0D2530044AD81 /* CreateFoundPostViewController.xib */,
+				9AB6F30F14F0CF2C0044AD81 /* CreateFoundPostViewController.m */,
+				9AB6F30B14F0CD5D0044AD81 /* CreateFoundPostViewController.h */,
+				7BE55E8314E88A8700B55A86 /* FoundMenuViewController.h */,
+				7BE55E8414E88A8700B55A86 /* FoundMenuViewController.m */,
+				7BE55E8514E88A8700B55A86 /* FoundMenuViewController.xib */,
+				0792BB2E14FC46AB00FEF7C1 /* XMLReader.h */,
+				0792BB2F14FC46AB00FEF7C1 /* XMLReader.m */,
+				07F44D70151847E300306CCD /* RecentLostMapViewController.h */,
+				07F44D71151847E300306CCD /* RecentLostMapViewController.m */,
+				07F44D72151847E300306CCD /* RecentLostMapViewController.xib */,
+				07F44D7C15187DCC00306CCD /* LostItemAnnotation.h */,
+				07F44D7D15187DCC00306CCD /* LostItemAnnotation.m */,
+				7B33810A150D8295003C1D05 /* SendMessageViewController.h */,
+				7B33810B150D8296003C1D05 /* SendMessageViewController.m */,
+				7B33810C150D8296003C1D05 /* SendMessageViewController.xib */,
+				7B3F1309151054BB0029CD1B /* RecentLostItemsViewController.h */,
+				7B3F130A151054BE0029CD1B /* RecentLostItemsViewController.m */,
+				7B3F130B151054BF0029CD1B /* RecentLostItemsViewController.xib */,
+				9A8A00DD151993BE00A0FE46 /* ItemOnMapViewController.h */,
+				9A8A00DE151993BF00A0FE46 /* ItemOnMapViewController.m */,
+				9A8A00DF151993C000A0FE46 /* ItemOnMapViewController.xib */,
+			);
+			name = Found;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BE55E5114E875A800B55A86 /* Items */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BE55E6A14E875A800B55A86 /* Build configuration list for PBXNativeTarget "Items" */;
+			buildPhases = (
+				7BE55E4E14E875A800B55A86 /* Sources */,
+				7BE55E4F14E875A800B55A86 /* Frameworks */,
+				7BE55E5014E875A800B55A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Items;
+			productName = Items;
+			productReference = 7BE55E5214E875A800B55A86 /* Items.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BE55E4914E875A800B55A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7BE55E4C14E875A800B55A86 /* Build configuration list for PBXProject "Items" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BE55E4714E875A800B55A86;
+			productRefGroup = 7BE55E5314E875A800B55A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BE55E5114E875A800B55A86 /* Items */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BE55E5014E875A800B55A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE55E6114E875A800B55A86 /* InfoPlist.strings in Resources */,
+				7BE55E7114E875F700B55A86 /* RootView.xib in Resources */,
+				7BE55E8214E886F300B55A86 /* LostMenuViewController.xib in Resources */,
+				7BE55E8714E88A8700B55A86 /* FoundMenuViewController.xib in Resources */,
+				9AB6F31214F0D2540044AD81 /* CreateFoundPostViewController.xib in Resources */,
+				07CA3B2B14F1E666008C093E /* iphone-share-map-location-2.png in Resources */,
+				9A948D9314FACA550016E40B /* CreateLostPostViewController.xib in Resources */,
+				C1AE98E514FC09E9006EF8A7 /* button-308x94-1.png in Resources */,
+				C1AE98E614FC09E9006EF8A7 /* button-308x94.png in Resources */,
+				C1AE98E714FC09E9006EF8A7 /* button-320x90-1.png in Resources */,
+				C1AE98E814FC09E9006EF8A7 /* button-320x90.png in Resources */,
+				9A8CAB72150476AA00460638 /* SearchLostPostViewController.xib in Resources */,
+				7B0BC617150692F200D7C77B /* FoundItemViewController.xib in Resources */,
+				7B0BC61D1506E4EB00D7C77B /* BackgroundFrame1.png in Resources */,
+				7B0BC61F1506FD1A00D7C77B /* blackbackground.png in Resources */,
+				9A590C77150D3E72003FE225 /* MyFoundItemViewController.xib in Resources */,
+				9A590C79150D3E72003FE225 /* MyFoundListViewController.xib in Resources */,
+				9A590C82150D4719003FE225 /* MyLostItemViewController.xib in Resources */,
+				9A590C84150D4719003FE225 /* MyLostListViewController.xib in Resources */,
+				7B33810E150D8296003C1D05 /* SendMessageViewController.xib in Resources */,
+				7BD64A3E150E660300FEEF29 /* MyMessagesViewController.xib in Resources */,
+				7B18F745150FC077000BB088 /* MessageDetailViewController.xib in Resources */,
+				7B18F74D150FEC46000BB088 /* pictureNotAvailable.png in Resources */,
+				7B3F12FC150FF1F90029CD1B /* SentBoxViewController.xib in Resources */,
+				7B3F12FF150FF2840029CD1B /* backgroundColor.jpeg in Resources */,
+				7B3F1304151037BE0029CD1B /* SimilarFoundPostsViewController.xib in Resources */,
+				7B3F130D151054C00029CD1B /* RecentLostItemsViewController.xib in Resources */,
+				9A8498E81516E1AF00386720 /* FindLocationViewController.xib in Resources */,
+				9ABAF5171516F6BC004D37C7 /* FoundLocationViewController.xib in Resources */,
+				07F44D74151847E300306CCD /* RecentLostMapViewController.xib in Resources */,
+				9A8A00E1151993C200A0FE46 /* ItemOnMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BE55E4E14E875A800B55A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE55E6314E875A800B55A86 /* main.m in Sources */,
+				7BE55E6714E875A800B55A86 /* ECS189AppDelegate.m in Sources */,
+				7BE55E6F14E875D700B55A86 /* RootViewController.m in Sources */,
+				7BE55E8114E886F300B55A86 /* LostMenuViewController.m in Sources */,
+				7BE55E8614E88A8700B55A86 /* FoundMenuViewController.m in Sources */,
+				9AB6F31014F0CF2C0044AD81 /* CreateFoundPostViewController.m in Sources */,
+				9A948D9214FACA550016E40B /* CreateLostPostViewController.m in Sources */,
+				0792BB3014FC46AB00FEF7C1 /* XMLReader.m in Sources */,
+				9A8CAB71150476AA00460638 /* SearchLostPostViewController.m in Sources */,
+				9A8CAB76150476C500460638 /* FoundItemViewController.m in Sources */,
+				9A590C76150D3E72003FE225 /* MyFoundItemViewController.m in Sources */,
+				9A590C78150D3E72003FE225 /* MyFoundListViewController.m in Sources */,
+				9A590C81150D4719003FE225 /* MyLostItemViewController.m in Sources */,
+				9A590C83150D4719003FE225 /* MyLostListViewController.m in Sources */,
+				7B33810D150D8296003C1D05 /* SendMessageViewController.m in Sources */,
+				7BD64A3D150E660300FEEF29 /* MyMessagesViewController.m in Sources */,
+				7B18F744150FC077000BB088 /* MessageDetailViewController.m in Sources */,
+				7B3F12FB150FF1F90029CD1B /* SentBoxViewController.m in Sources */,
+				7B3F1303151037BE0029CD1B /* SimilarFoundPostsViewController.m in Sources */,
+				7B3F130C151054C00029CD1B /* RecentLostItemsViewController.m in Sources */,
+				9A8498E71516E1AF00386720 /* FindLocationViewController.m in Sources */,
+				9ABAF5161516F6BC004D37C7 /* FoundLocationViewController.m in Sources */,
+				07F44D73151847E300306CCD /* RecentLostMapViewController.m in Sources */,
+				07F44D7E15187DCD00306CCD /* LostItemAnnotation.m in Sources */,
+				9A8A00E0151993C200A0FE46 /* ItemOnMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BE55E5F14E875A800B55A86 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BE55E6014E875A800B55A86 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BE55E6814E875A800B55A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BE55E6914E875A800B55A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BE55E6B14E875A800B55A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Items/Items-Prefix.pch";
+				INFOPLIST_FILE = "Items/Items-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7BE55E6C14E875A800B55A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Items/Items-Prefix.pch";
+				INFOPLIST_FILE = "Items/Items-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BE55E4C14E875A800B55A86 /* Build configuration list for PBXProject "Items" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE55E6814E875A800B55A86 /* Debug */,
+				7BE55E6914E875A800B55A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BE55E6A14E875A800B55A86 /* Build configuration list for PBXNativeTarget "Items" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BE55E6B14E875A800B55A86 /* Debug */,
+				7BE55E6C14E875A800B55A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BE55E4914E875A800B55A86 /* Project object */;
+}
